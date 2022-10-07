@@ -22,7 +22,7 @@ A one stop shop for all your bucket list ideas! Plan your future goals and keep 
 
 ## ERD
 
-![ERD](public/erd.jpeg)
+![ERD2](public/images/Screen Shot 2022-10-07 at 2.47.30 PM.png)
 
 ## RESTful Routes
 
