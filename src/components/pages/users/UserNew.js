@@ -22,7 +22,7 @@ const handleSubmit = async e =>{
             email,
             password
         }
-        const response = await axios.post(`${process.env.REACT_APP_SERVER_URL}api-v1/users/register`, reqBody)
+        const response = await axios.post(`${process.env.REACT_APP_SERVER_URL}/api-v1/user`, reqBody)
         // save the token in local storage
         const { token } = response.data
         localStorage.setItem("jwt", token)
